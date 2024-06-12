@@ -1,0 +1,26 @@
+zerops:
+  - setup: api
+    build:
+#      os: ubuntu
+      base: rust@1.78
+      buildCommands:
+        - cargo build --release
+      deploy:
+        - ./target/release/~/rust
+    run:
+#      os: ubuntu
+      base: rust@1.78
+      start: ./rust
+      ports:
+          - port: 8080
+            httpSupport: true
+      envVariables:
+        DB_NAME: db
+        DB_HOST: ${db_hostname}
+        DB_PORT: ${db_port}
+        DB_USER: ${db_user}
+        DB_PASS: ${db_password}
+      healthCheck:
+        httpGet:
+          port: 8080
+          path: /status
