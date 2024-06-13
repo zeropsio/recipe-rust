@@ -1,14 +1,12 @@
 zerops:
   - setup: api
     build:
-#      os: ubuntu
       base: rust@1.78
       buildCommands:
         - cargo build --release
-      deploy:
+      deployFiles:
         - ./target/release/~/rust
     run:
-#      os: ubuntu
       base: rust@1.78
       start: ./rust
       ports:
