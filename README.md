@@ -13,7 +13,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
-- **Rust 1.76** on **Zerops Rust** service
+- **Rust 1.76** app running on a load balanced **Zerops Rust** service
 - Zerops **PostgreSQL 16** service as database
 - Healthcheck setup example
 - Utilization of Zerops' built-in **environment variables** system
