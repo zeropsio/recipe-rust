@@ -1,5 +1,5 @@
 # Zerops x Rust
-This is the most bare-bones example of Rust app running on [Zerops](https://zerops.io).
+This is the most bare-bones example of Node.js app running on [Zerops](https://zerops.io) — as few libraries as possible, just a simple endpoint with connnect, read and write to a Zerops PostgreSQL database.
 
 ![rust](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-rust.png)
 
@@ -11,7 +11,6 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 [![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/rust)
 
 <br/>
-<br/>
 
 ## Recipe features
 - **Rust 1.76** on **Zerops Rust** service
@@ -19,6 +18,8 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 - Healthcheck setup example
 - Utilization of Zerops' built-in **environment variables** system
 - Utilization of Zerops' built-in **log management**
+
+<br/>
 
 ## Production vs. development
 
