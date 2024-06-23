@@ -1,7 +1,7 @@
 # Zerops x Rust
 This is the most bare-bones example of Rust app running on [Zerops](https://zerops.io) — as few libraries as possible, just a simple endpoint with connnect, read and write to a Zerops PostgreSQL database.
 
-![rust](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-rust.png)
+![rust](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-rust.svg)
 
 <br />
 
