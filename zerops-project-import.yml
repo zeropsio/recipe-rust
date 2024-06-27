@@ -5,7 +5,7 @@ project:
 
 services:
   - hostname: api
-    type: rust@1.78
+    type: rust@1
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-rust
 
