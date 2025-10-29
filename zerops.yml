@@ -7,7 +7,7 @@ zerops:
       deployFiles:
         - ./target/release/~/rust
     run:
-      base: rust@1.78
+      base: rust@stable
       start: ./rust
       ports:
           - port: 8080
