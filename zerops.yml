@@ -1,7 +1,7 @@
 zerops:
   - setup: api
     build:
-      base: rust@1.78
+      base: rust@stable
       buildCommands:
         - cargo build --release
       deployFiles:
